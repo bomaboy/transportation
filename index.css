@@ -1,0 +1,213 @@
+* {
+   margin: 0%;
+   padding: 0%;
+}
+
+/* main {
+   width: 120vw;
+   height: 130vh;
+   box-shadow: rgba(0, 0, 0, 0.6) 0px 10px 36px 0px,
+      rgba(0, 0, 0, 0.6) 0px 0px 0px 1px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+} */
+
+.upperSec {
+   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url(./car.jpeg);
+   height: 112vh;
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+}
+
+.center {
+   width: 80vw;
+}
+
+header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   height: 15vh;
+   color: white;
+   width: 70vw;
+   margin-left: 70px;
+}
+
+header span {
+   color: #e4b660;
+}
+
+nav {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   text-decoration: none;
+   color: grey;
+   width: 30vw;
+}
+
+nav a {
+   text-decoration: none;
+   color: white;
+}
+
+nav a:first-child {
+   color: #e4b660;
+}
+
+nav a:hover {
+   color: orange;
+}
+
+.left h1 {
+   color: white;
+   font-size: xxx-large;
+   font-weight: lighter;
+}
+
+.left p {
+   color: white;
+}
+
+.circleDiv {
+   width: 22vw;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   line-height: 100px;
+}
+
+.circleDiv span {
+   color: white;
+}
+
+.circle {
+   height: 60px;
+   width: 60px;
+   border: 1px solid white;
+   border-radius: 50%;
+   background-color: #fa9939;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.line {
+   height: 4px;
+   width: 50px;
+   background-color: white;
+   border-radius: 10%;
+}
+
+.triangle {
+   width: 0%;
+   height: 0%;
+   border-top: 10px solid transparent;
+   border-bottom: 10px solid transparent;
+   border-left: 10px solid white;
+}
+
+.flex {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+
+form {
+   height: 63vh;
+   width: 20vw;
+   background-color: white;
+   border-radius: 10px;
+   padding: 30px 20px;
+   line-height: 20px;
+   margin-top: 80px;
+}
+
+form h3 {
+   font-size: xxx large;
+}
+
+form label {
+   font-weight: bold;
+   font-size: small;
+}
+
+form input {
+   height: 33px;
+   width: 20vw;
+   border: 3px solid whitesmoke;
+   outline: none;
+}
+
+form::placeholder {
+   padding-left: 500px;
+}
+
+.double {
+   display: flex;
+   width: inherit;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.time1 input {
+   height: 30px;
+   width: 10vw;
+   outline: none;
+}
+
+form button {
+   height: 7vh;
+   width: 20vw;
+   background-color: #fa9939;
+   color: white;
+   border: none;
+   margin-top: 30px;
+}
+
+.lowerSec {
+   height: 30vh;
+   width: 70vw;
+   color: white;
+   margin-left: 200px;
+   margin-top: 45px;
+}
+
+.form {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   line-height: 50px;
+}
+
+.form label {
+   color: black;
+   font-weight: bolder;
+}
+
+select {
+   width: 13vw;
+   height: 7vh;
+   /* margin-left: 20px; */
+   outline: none;
+}
+
+.lowerSec button {
+   height: 7vh;
+   width: 15vw;
+   background-color: #fb983d;
+   color: white;
+   border: none;
+   margin-top: 50px;
+   outline: none;
+}
+
+footer {
+   text-align: center;
+   color: #fa9939;
+   font-weight: bolder;
+}
